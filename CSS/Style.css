@@ -41,9 +41,6 @@ nav li {
 }
 
 .image-portal {
-    height: 256px;
-    width: 256px;
-    margin-left: 80px;
     display: inline-block;
 }
 
@@ -57,6 +54,20 @@ nav li {
     background-color: #4a4a4f;
     margin: -5px 0 0;
     padding: 0;
+}
+
+.narrow {
+    margin: 0 110px;
+}
+
+.narrow > a > img {
+    height: 330px;
+    width: 256px;
+}
+
+.wide > a > img {
+    height: 330px;
+    width: 100%;
 }
 
 a:hover {
