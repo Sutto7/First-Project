@@ -18,3 +18,10 @@ nav li {
     display: inline-block;
     margin: 2.5%;
 }
+
+.header {
+    text-align: center;
+    font-size: 3vw;
+    color: #CBB26A;
+    margin-top: 60px;
+}
